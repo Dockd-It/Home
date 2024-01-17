@@ -1,0 +1,145 @@
+@media(max-width:1491px){
+	body{
+		font-size: 26px;
+	}
+	.welcome-section .welcome-content h3{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 36px;
+		line-height: 72px;
+	}
+	h4{
+		font-size: 24px;
+		line-height: 58px;
+	}
+
+	.hero-section{
+		height: 700px;
+		padding-top: 120px;
+	}
+
+	.hero-section .logo{
+		max-width: 450px;
+	}
+	.custom-list .custom-box img{
+		height: 80px;
+		object-fit: contain;
+	}
+	.social-row .social-list a img{
+		width: 60px;
+	}
+}
+
+@media(max-width:1200px){
+	.custom-list .custom-box h4{
+		font-size: 22px;
+		line-height: 50px;
+	}
+	.custom-list .custom-box img{
+		height: 60px;
+	}
+	.custom-list .custom-box:before{
+		width: 40px;
+		top: 30px;
+		left: calc(100% + 30px);
+	}
+	.custom-list{
+		column-gap: 100px;
+	}
+}
+
+@media(max-width:992px){
+	h2{
+		font-size: 26px;
+		line-height: 40px;
+	}
+	.custom-list .custom-box img{
+		height: 50px;
+	}
+	.custom-list .custom-box h4{
+		font-size: 18px;
+		line-height: 40px;
+	}
+	.custom-list{
+		column-gap: 60px;
+	}
+	.custom-list .custom-box:before{
+		width: 30px;
+	    top: 16px;
+	    left: calc(100% + 13px);
+	}
+}
+
+@media(max-width:768px){
+	body{
+		font-size: 22px;
+	}
+	p{
+		margin-bottom: 12px;
+	}
+	
+	.custom-list .custom-box img{
+		height: 40px;
+	}
+	.custom-list{
+		column-gap: 50px;
+	}
+	.custom-list .custom-box:before{
+		width: 24px;
+	    top: 14px;
+	    left: calc(100% + 13px);
+	}
+	.custom-list .custom-box h4{
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.social-row{
+		flex-direction: column;
+	}
+	.social-icon{
+	    max-width: 400px;
+	    margin: 20px auto 0;
+	}
+	.welcome-section .welcome-content h3{
+		font-size: 30px;
+	}
+}
+
+@media(max-width:600px){
+	
+	body{
+		font-size: 18px;
+	}
+
+	h2{
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.hero-section{
+		height: 700px;
+		background-image: url(../images/hero-banner-mobile.jpeg);
+		background-position: left top;
+	}
+	.hero-section .logo{
+		max-width: 250px;
+		margin:110px auto;
+	}
+	.custom-section h2{
+		font-size: 16px;
+	}
+	.custom-list .custom-box img{
+		height: 20px;
+	}
+	.custom-list{
+		column-gap: 20px;
+	}
+	.custom-list .custom-box:before{
+		width: 18px;
+	    top: 9px;
+	    left: calc(100% + 0px);
+	}
+	.social-row .social-list a img{
+		width: 40px;
+	}
+}
